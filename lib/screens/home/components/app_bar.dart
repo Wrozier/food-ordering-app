@@ -7,14 +7,14 @@ AppBar homeAppBar(BuildContext context) {
     backgroundColor: Colors.white,
     elevation: 0,
     leading: IconButton(
-      //icon: SvgPicture.asset("assets/icons/menu.svg"),
+      icon: SvgPicture.asset("assets/icons/menu.svg"),
       onPressed: () {},
     ),
     title: RichText(
       text: TextSpan(
         style: Theme.of(context)
             .textTheme
-            .title
+            .headline6
             .copyWith(fontWeight: FontWeight.bold),
         children: [
           TextSpan(

@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:foodorderingapp/constants.dart';
+// ignore: duplicate_import
 import 'package:foodorderingapp/constants.dart';
 
 class SearchBox extends StatelessWidget {
